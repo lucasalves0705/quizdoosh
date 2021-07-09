@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizDoosh", "QuizDoosh\QuizDoosh.csproj", "{5D527E66-D9E6-4DBA-B58C-D1C35003FA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{349E6238-03FA-41BC-A569-B5199A164AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D527E66-D9E6-4DBA-B58C-D1C35003FA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D527E66-D9E6-4DBA-B58C-D1C35003FA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D527E66-D9E6-4DBA-B58C-D1C35003FA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D527E66-D9E6-4DBA-B58C-D1C35003FA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349E6238-03FA-41BC-A569-B5199A164AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349E6238-03FA-41BC-A569-B5199A164AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349E6238-03FA-41BC-A569-B5199A164AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349E6238-03FA-41BC-A569-B5199A164AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {062CDC76-9582-4668-96EE-D74E7138D7DE}
+	EndGlobalSection
+EndGlobal
