@@ -17,6 +17,8 @@ namespace Repository.Models
         {
         }
 
+        public virtual DbSet<Answer> Answers { get; set; }
+        public virtual DbSet<Quiz> Quizzes { get; set; }
         public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -31,6 +33,34 @@ namespace Repository.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Latin1_General_CI_AS");
+
+            modelBuilder.Entity<Answer>(entity =>
+            {
+                entity.ToTable("answers");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Quiz).HasColumnName("quiz");
+
+                entity.Property(e => e.Title)
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasColumnName("title");
+            });
+
+            modelBuilder.Entity<Quiz>(entity =>
+            {
+                entity.ToTable("quiz");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Title)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("title");
+
+                entity.Property(e => e.User).HasColumnName("user");
+            });
 
             modelBuilder.Entity<User>(entity =>
             {
