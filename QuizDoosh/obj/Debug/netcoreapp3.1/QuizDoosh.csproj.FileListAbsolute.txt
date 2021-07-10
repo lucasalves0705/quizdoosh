@@ -385,3 +385,6 @@ C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\obj\Debug
 C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\obj\Debug\netcoreapp3.1\QuizDoosh.genruntimeconfig.cache
 C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\obj\Debug\netcoreapp3.1\Razor\Views\Layout\_Layout.cshtml.g.cs
+C:\Users\lucas\Documents\Lucas Alves\Projetos\Quiz\QuizDoosh\QuizDoosh\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
