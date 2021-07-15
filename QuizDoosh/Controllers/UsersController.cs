@@ -83,5 +83,20 @@ namespace QuizDoosh.Controllers
                 return View();
             }
         }
+
+        //POST: validar o username e senha com o banco
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult validateLogin(IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
     }
 }

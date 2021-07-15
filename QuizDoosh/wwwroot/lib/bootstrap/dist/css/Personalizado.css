@@ -1,0 +1,90 @@
+﻿/* BOOTSTRAP PERSONALIZADO */
+
+:root {
+    --purple: #A239CA;
+    --purple-secondary: #9d21cc;
+    --jewel: #4717F6;
+    --jewel-secondary: #3b15c7;
+}
+
+
+/*** PURPLE ***/
+.text-purple {
+    color: var(--purple) !important;
+}
+
+a.text-purple:hover, a.text-purple:focus {
+    color: var(--purple-secondary) !important;
+}
+
+.bg-purple {
+    background-color: var(--purple) !important;
+}
+
+a.bg-purple:hover, a.bg-purple:focus,
+button.bg-purple:hover,
+button.bg-purple:focus {
+    background-color: var(--purple) !important;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: var(--purple);
+    border-color: var(--purple-secondary);
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: var(--purple-secondary);
+    border-color: var(--purple-secondary);
+}
+
+.btn-purple:focus, .btn-purple.focus {
+    color: #fff;
+    background-color: rgba(157, 33, 204, 0.8);
+    border: 0;
+    box-shadow: 0 0 0 0.2rem rgba(157, 33, 204, 0.6);
+}
+
+/***  JEWEL  ***/
+.text-jewel {
+    color: var(--jewel) !important;
+}
+
+a.text-jewel:hover, a.text-jewel:focus {
+    color: var(--jewel-secondary) !important;
+}
+
+.bg-purple {
+    background-color: var(--jewel) !important;
+}
+
+a.bg-jewel:hover, a.bg-jewel:focus,
+button.bg-jewel:hover,
+button.bg-jewel:focus {
+    background-color: var(--jewel) !important;
+}
+
+.btn-jewel {
+    color: #fff;
+    background-color: var(--jewel);
+    border-color: var(--jewel-secondary);
+}
+
+.btn-jewel:hover {
+    color: #fff;
+    background-color: var(--jewel-secondary);
+    border-color: var(--jewel-secondary);
+}
+
+.btn-jewel:focus, .btn-jewel.focus {
+    color: #fff;
+    background-color: rgba(59, 21, 199, 0.8);
+    border: 0;
+    box-shadow: 0 0 0 0.2rem rgba(59, 21, 199, 0.6);
+}
+
+.checkbox-purple {
+    border-color: #a239ca;
+    background-color: #a239ca;
+}

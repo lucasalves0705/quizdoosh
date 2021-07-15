@@ -10,5 +10,9 @@
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_ViewDialogWidth>650</WebStackScaffolding_ViewDialogWidth>
     <WebStackScaffolding_EnablerDialogWidth>650</WebStackScaffolding_EnablerDialogWidth>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
